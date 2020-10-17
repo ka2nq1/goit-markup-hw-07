@@ -1,0 +1,70 @@
+.clients {
+    padding-top: 94px;
+    padding-bottom: 94px;
+
+    &-title {
+        @extend %title;
+        margin: 0 0 50px 0;              
+    }
+}
+
+.clients-list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.clients-icon-bg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 170px;
+    height: 90px;
+    border: solid 1px #afb1b8;
+    border-radius: 4px;
+
+    &:hover,
+    &:focus {
+      border-color: $accent-color;
+      transition-timing-function: $timing-function;
+    }
+    
+    &:hover .clients-svg,
+    &:focus .clients-svg {
+      fill: $accent-color;
+      transition-timing-function: $timing-function;
+    }   
+}
+
+.clients-svg {
+    fill: #afb1b8;
+}
+
+.clients-icon-bg-ya-co {
+    width: 44.27px;
+    height: 49.23px;
+}
+
+.clients-icon-bg-tagline-here {
+  width: 40px;
+  height: 52px;
+}
+
+.clients-icon-bg-company {
+  width: 41px;
+  height: 42.6px;
+}
+
+.clients-icon-bg-foster {
+  width: 79.66px;
+  height: 42.02px;
+}
+
+.clients-icon-bg-brand {
+  width: 59px;
+  height: 47px;
+}
+
+.clients-icon-bg-tagline {
+  width: 88.48px;
+  height: 45.44px;
+}

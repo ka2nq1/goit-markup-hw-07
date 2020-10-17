@@ -1,0 +1,48 @@
+* {
+    font-family: roboto;
+    transition-duration: 250ms;
+  }
+
+  .item {
+    list-style-type: none;
+  }
+
+  .list {
+    padding: 0px;
+    margin: 0px;
+  }
+  
+  .link {
+    text-decoration: none;
+  }
+    
+  .container {
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  
+  .btn {
+      @extend %btn;
+      &:hover {
+          @extend %btn-hover;
+      }
+  }
+
+  @import "./utils/variables";
+  @import "./base/normalize";
+  @import "./components/logo";
+  @import "./utils/placeholders";
+  @import "./components/page-header";
+  @import "./components/page-hero";
+  @import "./components/page-modal";
+  @import "./components/page-feature";
+  @import "./components/page-activity";
+  @import "./components/page-team";
+  @import "./components/page-clients";
+  @import "./components/page-footer";
+  @import "./components/page-filters";
+  @import "./components/page-works";
+
